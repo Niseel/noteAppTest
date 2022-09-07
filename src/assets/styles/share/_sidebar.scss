@@ -1,0 +1,157 @@
+@import "../app";
+
+// .fas {
+// }
+// .active {
+// }
+.sidebar {
+  height: 100%;
+  width: 100%;
+  min-width: 280px;
+  background-color: $primary-color;
+
+  padding-top: 60px;
+  &__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 16px;
+    margin-bottom: 24px;
+  }
+  &__menu {
+    color: $text-color-2;
+    margin: 0 20px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid $input-search;
+  }
+  &__menu-title {
+    padding: 20px;
+  }
+  &__menu-item {
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    &.active {
+      background-color: $active-tab;
+      border-radius: 15px;
+    }
+    &:hover {
+      background-color: $active-tab;
+      border-radius: 15px;
+      opacity: $opacity80;
+    }
+  }
+  &__menu-item-icon {
+    padding-right: 20px;
+  }
+  &__menu-item-title {
+  }
+
+  &__general {
+    color: $text-color-2;
+    margin: 0 20px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid $input-search;
+  }
+  &__general-title {
+    padding: 20px;
+  }
+
+  &__general-item {
+    cursor: pointer;
+    margin-bottom: 12px;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    &-icon {
+      padding-right: 20px;
+      i {
+      }
+    }
+    &-title {
+    }
+    &:hover {
+      background-color: $active-tab;
+      border-radius: 15px;
+      opacity: $opacity80;
+    }
+  }
+
+  &__feature {
+    color: $text-color-2;
+    margin: 0 20px 40px 20px;
+  }
+  &__feature-help {
+    cursor: pointer;
+    margin: 16px 0px;
+    display: flex;
+    padding: 16px 18px;
+    justify-content: space-between;
+    align-items: center;
+    &:hover {
+      background-color: $active-tab;
+      border-radius: 15px;
+      opacity: $opacity80;
+    }
+  }
+  &__feature-help--icon {
+  }
+  &__feature-help--title {
+    display: flex;
+    flex-direction: column;
+  }
+  &__feature-help--badge {
+    background: $text-color-5;
+    color: $primary-color;
+    font-weight: bold;
+    padding: 6px 8px;
+    border-radius: 8px;
+  }
+  &__feature-mode {
+    display: flex;
+    justify-content: space-between;
+    background: $content-body-color;
+    border-radius: 25px;
+    span {
+      margin-left: 12px;
+    }
+  }
+  &__feature--light-mode {
+    border-radius: 15px;
+    padding: 12px 0px 12px 32px;
+  }
+  &__feature-dark-mode {
+    padding: 12px 32px 12px 0px;
+    border-radius: 15px;
+  }
+
+  &__feature--light-mode.active {
+    padding: 12px 32px 12px 32px;
+    background-color: $input-search;
+  }
+  &__feature-dark-mode.active {
+    padding: 12px 32px 12px 32px;
+    background-color: $input-search;
+  }
+}
+.logo {
+  &__img {
+    padding-top: 8px;
+    padding-right: 12px;
+    height: 46px;
+  }
+  &__name {
+    color: $text-color-1;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  &__dot {
+    font-size: 2.5rem;
+    color: $text-primary;
+  }
+}
+.fa {
+  &-th-large {
+    //color: red;
+  }
+}

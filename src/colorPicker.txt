@@ -1,0 +1,33 @@
+den #0D0E10
+
+header #191D20
+
+content body #121315
+
+
+backgroudn each task #191D20
+task #121315
+
+hover tab #1D2025
+
+input visibilyti #191D20
+
+
+input search #272A2F (choox light dark luon)
+
+
+xanh #2B85FF
+xanh la #26AA4B
+do: #E55F4B
+
+redsigh #333C5B
+mobile #325B3D
+ideal #583556
+
+mau chu 1: fff
+mau chu 2 tab: #97A3B3
+mau chu 3 content: #5E5F61
+mau chu 4 xam input: #4C5157
+mau chu 5 xam, badge: #CABEFE
+
+

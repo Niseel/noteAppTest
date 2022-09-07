@@ -1,0 +1,18 @@
+.app {
+  height: auto;
+  user-select: none;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  // display: flex;
+}
+.content {
+  width: 100%;
+  display: flex;
+  &__main {
+    background-color: $content-body-color;
+    color: $text-color-1;
+  }
+}
